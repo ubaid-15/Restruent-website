@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">🍽️ Resto</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="btn">Book a Table</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+    <section class="home-section">
+        <div class="home-content">
+            <h1 class="home-title">Welcome to Our Restaurant</h1>
+            <p class="home-desc">Experience the best flavors and unforgettable moments with us.</p>
+            <a href="#" class="home-btn">Explore Menu</a>
+        </div>
+        <div class="home-image">
+            <img src="home.jpeg" alt="Delicious Food" class="home-img">
+        </div>
+    </section>
+    
+    
+
+
+
+
+
+
+
+
+    <section class="menu-section">
+        <h2 class="menu-title">Our Delicious Menu</h2>
+        <div class="menu-container">
+            <!-- Row 1 -->
+            <div class="menu-item">
+                <img src="Menu 1.jpeg" alt="Grilled Chicken" class="menu-img">
+                <h3 class="menu-item-title">Grilled Chicken</h3>
+                <p class="menu-desc">Served with fresh veggies and herbs.</p>
+                <span class="menu-price">$12.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="Menu 2.jpeg" alt="Pasta Carbonara" class="menu-img">
+                <h3 class="menu-item-title">Pasta Carbonara</h3>
+                <p class="menu-desc">Creamy sauce with crispy bacon.</p>
+                <span class="menu-price">$10.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="Menu 3.jpeg" alt="Cheese Burger" class="menu-img">
+                <h3 class="menu-item-title">Cheese Burger</h3>
+                <p class="menu-desc">Juicy beef patty with melted cheese.</p>
+                <span class="menu-price">$8.99</span>
+            </div>
+    
+            <!-- Row 2 -->
+            <div class="menu-item">
+                <img src="Menu 4.jpeg" alt="Margherita Pizza" class="menu-img">
+                <h3 class="menu-item-title">Margherita Pizza</h3>
+                <p class="menu-desc">Classic Italian pizza with fresh tomatoes & basil.</p>
+                <span class="menu-price">$11.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="Menu 5.jpeg" alt="Seafood Platter" class="menu-img">
+                <h3 class="menu-item-title">Seafood Platter</h3>
+                <p class="menu-desc">A delicious mix of shrimp, fish, and calamari.</p>
+                <span class="menu-price">$15.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="Menu 6.jpeg" alt="Chocolate Cake" class="menu-img">
+                <h3 class="menu-item-title">Chocolate Cake</h3>
+                <p class="menu-desc">Rich and moist cake with dark chocolate.</p>
+                <span class="menu-price">$6.99</span>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="about-section">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="home.jpeg" alt="Restaurant Interior" class="about-img">
+            </div>
+            <div class="about-content">
+                <h2 class="about-title">About Our Restaurant</h2>
+                <p class="about-desc">
+                    Welcome to our restaurant, where we serve the finest dishes made with fresh ingredients and a touch of love. 
+                    Our chefs bring authentic flavors to your table, ensuring a memorable dining experience.
+                </p>
+                <p class="about-desc">
+                    Whether you're here for a casual meal or a special occasion, we promise to make it unforgettable.
+                </p>
+                <a href="#" class="about-btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+    <section class="reservation-section">
+        <h2 class="reservation-title">Book a Table</h2>
+        <form class="reservation-form">
+            <div class="input-group">
+                <input type="text" id="name" name="name" required>
+                <label for="name">Full Name</label>
+            </div>
+    
+            <div class="input-group">
+                <input type="email" id="email" name="email" required>
+                <label for="email">Email</label>
+            </div>
+    
+            <div class="input-group">
+                <input type="date" id="date" name="date" required>
+                <label for="date">Date</label>
+            </div>
+    
+            <div class="input-group">
+                <input type="time" id="time" name="time" required>
+                <label for="time">Time</label>
+            </div>
+    
+            <div class="input-group">
+                <input type="number" id="guests" name="guests" min="1" max="20" required>
+                <label for="guests">Number of Guests</label>
+            </div>
+    
+            <div class="input-group">
+                <textarea id="message" name="message" rows="4"></textarea>
+                <label for="message">Special Requests (Optional)</label>
+            </div>
+    
+            <button type="submit" class="reservation-btn">Reserve Now</button>
+        </form>
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- About Section -->
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p>Welcome to our restaurant, where delicious flavors meet a cozy atmosphere. We serve fresh, high-quality meals to satisfy your cravings.</p>
+            </div>
+    
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#book-table">Book a Table</a></li>
+                </ul>
+            </div>
+    
+            <!-- Contact Section -->
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@restaurant.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Location: 123 Food Street, City</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>Ubaid ur Rahman</p>
+        </div>
+    </footer>
+    
+
+
+
+
+</body>
+</html>
